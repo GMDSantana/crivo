@@ -1,6 +1,17 @@
+<p align="center">
+Translations <br>
+<a href=https://github.com/GMDSantana/crivo/tree/master/README.md>🇬🇧 EN</a>
+<a href=https://github.com/GMDSantana/crivo/tree/master/translations/es/README.md>🇪🇸 ES</a>
+<a href=https://github.com/GMDSantana/crivo/tree/master/translations/pt-br/README.md>🇧🇷 PT-BR</a>
+<a href=https://github.com/GMDSantana/crivo/tree/master/translations/zh-cn/README.md>🇨🇳 ZH-CN</a>
+ <br><br>
+</p>
+
 # Crivo
 
-Crivo is an open-source Python programme designed for offensive security analysts, pentesters, and bug bounty hunters. It extracts and filters URLs, IPs, domains, and subdomains from text input or web pages, with built-in web scraping capabilities. The programme supports various filtering options, scopes, and flexible output configurations.
+Crivo is an open-source Python tool designed for offensive security analysts, pentesters, and bug bounty hunters. It extracts and filters URLs, IPs, domains, and subdomains from text input or web pages, with built-in web scraping capabilities. The tool supports various filtering options, scopes, and flexible output configurations.
+
+Crivo is particularly well-suited for quick tasks and automation. Its straightforward output format, free from unnecessary clutter, makes it ideal for integrating into automated workflows. Additionally, Crivo can efficiently process and "filter" reports or outputs from other tools, such as [Amass](https://github.com/owasp-amass/amass), extracting only the information you need and presenting it in a clean, organised list.
 
 ## Features
 
@@ -65,8 +76,21 @@ python crivo_cli.py -f input.txt -v
 - `-V`, `--version`: Display the version of the Crivo programme.
 
 ## Contributing
-Contributions are welcome! Please fork the repository, create a feature branch, and submit a pull request with your changes.
+
+Contributions are welcome! Before getting started, please read the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to contribute effectively. Once you're ready, fork the repository, create a feature branch, and submit a pull request with your changes.
 
 ## License
+
 Crivo is licensed under the [MIT License](LICENSE).
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
