@@ -1,2 +1,15 @@
-pytest
-pytest-mock
+# Development dependencies for Crivo
+
+# Testing framework
+pytest>=7.0
+pytest-mock>=3.0
+
+# Code style and linting
+flake8>=5.0
+
+# Import sorting
+flake8-import-order>=0.18
+isort>=5.10
+
+# Code formatting
+black>=23.0
