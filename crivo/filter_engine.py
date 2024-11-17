@@ -14,6 +14,7 @@ https://github.com/GMDSantana/crivo
 import re
 import os
 
+
 def load_valid_tlds(file_path):
     """
     Loads a list of valid TLDs from a file and constructs a regex pattern.
@@ -25,18 +26,27 @@ def load_valid_tlds(file_path):
         str: A regex pattern matching valid TLDs.
     """
     try:
-        with open(file_path, 'r', encoding='utf-8') as f:
+        with open(file_path, "r", encoding="utf-8") as f:
             tlds = [line.strip() for line in f if line.strip()]
         if not tlds:
             raise ValueError("The TLD list is empty.")
         # Join TLDs into a single regex group
-        return '|'.join(tlds)
+        return "|".join(tlds)
     except FileNotFoundError:
         raise FileNotFoundError(f"Error: The file '{file_path}' was not found.")
     except IOError as e:
         raise IOError(f"Error reading the file '{file_path}': {e}")
 
-def filter_content(content, scope_filters=None, filter_ip=False, filter_ipv4=False, filter_ipv6=False, filter_domain=False, filter_url=False):
+
+def filter_content(
+    content,
+    scope_filters=None,
+    filter_ip=False,
+    filter_ipv4=False,
+    filter_ipv6=False,
+    filter_domain=False,
+    filter_url=False,
+):
     """
     Filters the provided content based on specified parameters.
 
@@ -53,12 +63,12 @@ def filter_content(content, scope_filters=None, filter_ip=False, filter_ipv4=Fal
         list: A list of unique filtered strings based on the criteria.
     """
     # Load the TLD regex dynamically
-    tld_regex = load_valid_tlds('valid_tlds.txt')
-    domain_pattern = rf'\b(?:[a-zA-Z0-9-]+\.)+(?:{tld_regex})\b'
+    tld_regex = load_valid_tlds("valid_tlds.txt")
+    domain_pattern = rf"\b(?:[a-zA-Z0-9-]+\.)+(?:{tld_regex})\b"
 
     # Other regex patterns
-    ipv4_pattern = r'\b(?:[0-9]{1,3}\.){3}[0-9]{1,3}\b'
-    ipv6_pattern = r'\b(?:[a-fA-F0-9]{1,4}:){7}[a-fA-F0-9]{1,4}\b'
+    ipv4_pattern = r"\b(?:[0-9]{1,3}\.){3}[0-9]{1,3}\b"
+    ipv6_pattern = r"\b(?:[a-fA-F0-9]{1,4}:){7}[a-fA-F0-9]{1,4}\b"
     url_pattern = r'\bhttps?://[^\s<>"\'#]+\b'
     results = set()
 
@@ -82,7 +92,8 @@ def filter_content(content, scope_filters=None, filter_ip=False, filter_ipv4=Fal
 
     # Apply scope filtering if provided
     if scope_filters:
-        results = {item for item in results if any(scope in item for scope in scope_filters)}
+        results = {
+            item for item in results if any(scope in item for scope in scope_filters)
+        }
 
     return sorted(results)
-

@@ -15,6 +15,7 @@ import requests
 from urllib.parse import urljoin
 import re
 
+
 def scrape_webpage(url, resolve_links=False):
     """
     Fetches the content of a webpage and optionally resolves relative links.
@@ -47,4 +48,3 @@ def scrape_webpage(url, resolve_links=False):
         return content
     except requests.exceptions.RequestException as e:
         raise RuntimeError(f"Error fetching the webpage '{url}': {e}")
-

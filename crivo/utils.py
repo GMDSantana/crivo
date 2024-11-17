@@ -11,6 +11,7 @@ https://github.com/GMDSantana/crivo
 
 """
 
+
 def normalise_text(text):
     """
     Normalises text by stripping whitespace and converting to lowercase.
@@ -22,6 +23,7 @@ def normalise_text(text):
         str: The normalised text.
     """
     return text.strip().lower()
+
 
 def validate_scope(scope):
     """
@@ -37,6 +39,7 @@ def validate_scope(scope):
         return []
     return [s.strip().lower() for s in scope.split(",") if s.strip()]
 
+
 def log_verbose(message, verbose):
     """
     Prints a message if verbose mode is enabled.
@@ -47,4 +50,3 @@ def log_verbose(message, verbose):
     """
     if verbose:
         print(message)
-
