@@ -101,3 +101,5 @@ Crivo 根据 [MIT 许可证](../LICENSE) 授权。
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
+此项目遵循 [all-contributors](https://allcontributors.org) 规范。  
+欢迎任何形式的贡献！

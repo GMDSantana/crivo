@@ -101,3 +101,5 @@ O Crivo está licenciado sob a [Licença MIT](../LICENSE).
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
+Este projeto segue a especificação [all-contributors](https://allcontributors.org).  
+Contribuições de todos os tipos são bem-vindas!
