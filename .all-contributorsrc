@@ -2,7 +2,10 @@
   "projectName": "crivo",
   "projectOwner": "GMDSantana",
   "files": [
-    "README.md"
+    "README.md",
+    "translations/es/README.md",
+    "translations/pt-br/README.md",
+    "translations/zh-cn/README.md"
   ],
   "commitType": "docs",
   "commitConvention": "angular",
