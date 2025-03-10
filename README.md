@@ -45,19 +45,19 @@ Run Crivo using the command line:
 
 ```bash
 # Extract and filter from a text file
-python crivo_cli.py -f input.txt
+python crivo.py -f input.txt
 
 # Fetch and filter from a single webpage
-python crivo_cli.py -w https://example.com
+python crivo.py -w https://example.com
 
 # Fetch and filter from a list of webpages
-python crivo_cli.py -W webpage_list.txt
+python crivo.py -W webpage_list.txt
 
 # Specify scope filters and output to a file
-python crivo_cli.py -f input.txt -s example.com -o output.txt
+python crivo.py -f input.txt -s example.com -o output.txt
 
 # Enable verbose mode for detailed output
-python crivo_cli.py -f input.txt -v
+python crivo.py -f input.txt -v
 ```
 
 ### Command-Line Arguments
