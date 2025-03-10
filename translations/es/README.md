@@ -45,19 +45,19 @@ Ejecuta Crivo desde la línea de comandos:
 
 ```bash
 # Extraer y filtrar de un archivo de texto:
-python crivo_cli.py -f input.txt
+python  crivo.py -f input.txt
 
 # Buscar y filtrar de una sola página web:
-python crivo_cli.py -w https://example.com
+python  crivo.py -w https://example.com
 
 # Buscar y filtrar de una lista de páginas web:
-python crivo_cli.py -W webpage_list.txt
+python  crivo.py -W webpage_list.txt
 
 # Especificar filtros de alcance y guardar en un archivo:
-python crivo_cli.py -f input.txt -s example.com -o output.txt
+python  crivo.py -f input.txt -s example.com -o output.txt
 
 # Habilitar modo detallado para salida informativa:
-python crivo_cli.py -f input.txt -v
+python  crivo.py -f input.txt -v
 ```
 
 ### Argumentos de Línea de Comando

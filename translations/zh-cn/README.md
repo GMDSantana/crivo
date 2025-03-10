@@ -45,19 +45,19 @@ pip install -r requirements.txt
 
 ```bash
 # 从文本文件中提取和过滤：
-python crivo_cli.py -f input.txt
+python  crivo.py -f input.txt
 
 # 从单个网页中获取并过滤：
-python crivo_cli.py -w https://example.com
+python  crivo.py -w https://example.com
 
 # 从网页列表中获取并过滤：
-python crivo_cli.py -W webpage_list.txt
+python  crivo.py -W webpage_list.txt
 
 # 指定范围过滤器并保存到文件：
-python crivo_cli.py -f input.txt -s example.com -o output.txt
+python  crivo.py -f input.txt -s example.com -o output.txt
 
 # 启用详细模式以显示更多信息：
-python crivo_cli.py -f input.txt -v
+python  crivo.py -f input.txt -v
 ```
 
 ### 命令行参数
