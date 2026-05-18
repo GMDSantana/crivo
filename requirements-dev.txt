@@ -6,4 +6,4 @@ pytest-mock>=3.0
 pytest-cov>=3.0
 
 # Runtime dependencies
-requests>=2.26
+requests>=2.34.2
