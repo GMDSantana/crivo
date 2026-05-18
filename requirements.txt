@@ -1,3 +1,3 @@
 # Production dependencies for Crivo
 
-requests>=2.26
+requests>=2.34.2
