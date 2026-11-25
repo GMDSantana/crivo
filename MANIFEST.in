@@ -1,0 +1,3 @@
+include README.md LICENSE CHANGELOG.md requirements.txt requirements-dev.txt pyproject.toml
+include crivo/data/valid_tlds.txt
+recursive-include tests *.py

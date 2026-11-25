@@ -1,3 +1,8 @@
 # Production dependencies for Crivo
 
 requests>=2.34.2
+# Crivo streams responses from untrusted servers. urllib3 2.8.0 fixes the
+# streaming decompression issues CVE-2025-66418, CVE-2025-66471,
+# CVE-2026-21441, CVE-2026-44432 and CVE-2026-97688; earlier 1.26.x
+# releases also fail to import on Python 3.12+.
+urllib3>=2.8.0

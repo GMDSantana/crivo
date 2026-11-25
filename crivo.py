@@ -11,14 +11,17 @@ https://github.com/GMDSantana/crivo
 
 """
 
+import sys
+
 from crivo.main import main
+
 
 def run_cli():
     """
-    Runs the Crivo command-line interface.
+    Runs the Crivo command-line interface and returns its exit status.
     """
-    main()
+    return main()
+
 
 if __name__ == "__main__":
-    run_cli()
-
+    sys.exit(run_cli())

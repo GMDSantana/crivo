@@ -1,9 +1,9 @@
 <p align="center">
 Translations <br>
-<a href=https://github.com/GMDSantana/crivo/tree/master/CODE_OF_CONDUCT.md>🇬🇧 EN</a>
-<a href=https://github.com/GMDSantana/crivo/tree/master/translations/es/CODE_OF_CONDUCT.md>🇪🇸 ES</a>
-<a href=https://github.com/GMDSantana/crivo/tree/master/translations/pt-br/CODE_OF_CONDUCT.md>🇧🇷 PT-BR</a>
-<a href=https://github.com/GMDSantana/crivo/tree/master/translations/zh-cn/CODE_OF_CONDUCT.md>🇨🇳 ZH-CN</a>
+<a href="CODE_OF_CONDUCT.md">🇬🇧 EN</a>
+<a href="translations/es/CODE_OF_CONDUCT.md">🇪🇸 ES</a>
+<a href="translations/pt-br/CODE_OF_CONDUCT.md">🇧🇷 PT-BR</a>
+<a href="translations/zh-cn/CODE_OF_CONDUCT.md">🇨🇳 ZH-CN</a>
  <br><br>
 </p>
 

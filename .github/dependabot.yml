@@ -5,3 +5,8 @@ updates:
     schedule:
       interval: "weekly"
 
+  # Keeps the actions used in .github/workflows (checkout, setup-python) up to date.
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
