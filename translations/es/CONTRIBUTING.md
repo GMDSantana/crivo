@@ -1,9 +1,9 @@
 <p align="center">
 Traducciones <br>
-<a href=https://github.com/GMDSantana/crivo/tree/master/CONTRIBUTING.md>🇬🇧 EN</a>
-<a href=https://github.com/GMDSantana/crivo/tree/master/translations/es/CONTRIBUTING.md>🇪🇸 ES</a>
-<a href=https://github.com/GMDSantana/crivo/tree/master/translations/pt-br/CONTRIBUTING.md>🇧🇷 PT-BR</a>
-<a href=https://github.com/GMDSantana/crivo/tree/master/translations/zh-cn/CONTRIBUTING.md>🇨🇳 ZH-CN</a>
+<a href="../../CONTRIBUTING.md">🇬🇧 EN</a>
+<a href="../es/CONTRIBUTING.md">🇪🇸 ES</a>
+<a href="../pt-br/CONTRIBUTING.md">🇧🇷 PT-BR</a>
+<a href="../zh-cn/CONTRIBUTING.md">🇨🇳 ZH-CN</a>
  <br><br>
 </p>
 
