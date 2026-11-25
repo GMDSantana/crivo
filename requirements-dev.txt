@@ -1,6 +1,8 @@
 # Development dependencies for Crivo
 
 # Testing framework
+pytest>=9.1.1
+pytest-mock>=3.0
 pytest>=7.0
 pytest-mock>=3.15.1
 pytest-cov>=3.0
