@@ -1,7 +1,7 @@
 [build-system]
 # Project metadata lives in setup.py. setuptools 77 or newer is needed for
 # SPDX license expressions (license="MIT").
-requires = ["setuptools>=77"]
+requires = ["setuptools>=84.2.1"]
 build-backend = "setuptools.build_meta"
 
 [tool.pytest.ini_options]
